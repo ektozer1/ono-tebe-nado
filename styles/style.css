@@ -44,8 +44,10 @@ body {
 }
 
 .header__links-list-item_no-bullit {
-  text-decoration: none;
   list-style: none;
+}
+.header__link-active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -161,7 +163,7 @@ span {
 
 .bet-button {
   width: 257px;
-  height: 52px;
+  height: min-content;
   flex-shrink: 0;
   background-color: transparent;
   border: 1px solid currentColor;
@@ -365,3 +367,4 @@ span {
   width: 48px;
   height: 48px;
 }
+
