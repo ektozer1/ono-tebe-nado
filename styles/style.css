@@ -163,7 +163,7 @@ span {
 
 .bet-button {
   width: 257px;
-  height: min-content;
+  min-height: 52px;
   flex-shrink: 0;
   background-color: transparent;
   border: 1px solid currentColor;
