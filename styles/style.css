@@ -50,6 +50,9 @@ body {
   text-decoration: none;
 }
 
+.footer__link-active {
+  text-decoration: none;
+}
 .header__logo {
   display: block;
   flex-shrink: 0;
