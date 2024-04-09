@@ -224,7 +224,7 @@ span {
 
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   background-size: cover;
   background-repeat: no-repeat;
