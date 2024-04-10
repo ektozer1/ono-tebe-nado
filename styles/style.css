@@ -63,9 +63,7 @@ body {
   width: 148px;
 }
 
-address {
-  all: unset;
-}
+
 
 .address {
   width: 240px;
@@ -76,6 +74,7 @@ address {
   font-style: normal;
   font-weight: 400;
   justify-self: end;
+  all: unset;
 }
 
 .cover {
