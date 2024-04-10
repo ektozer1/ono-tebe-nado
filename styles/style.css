@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  margin: 92px 50px 92px 50px;
+  padding: 92px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
