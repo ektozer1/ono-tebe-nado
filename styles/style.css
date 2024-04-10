@@ -82,9 +82,7 @@ body {
   background-image: url(../images/cover.jpg);
   width: 100%;
   min-height: 757px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../images/cover.jpg) no-repeat center / cover;
   margin-bottom: 180px;
   position: relative;
 }
