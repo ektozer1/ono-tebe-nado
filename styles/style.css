@@ -184,15 +184,16 @@ span {
 }
 
 .lots {
-  margin-top: 179px;
-  margin-left: 64px;
-  margin-right: 915px;
-  max-width: 1340px;
-  flex-shrink: 0;
+  margin-top: 180px; 
+  margin-left: 50px; 
+  margin-right: 50px; 
+  max-width: 1340px; 
+  flex-shrink: 0; 
 }
 .lots__heading {
   margin-left: 40px;
   margin-bottom: 27px;
+  margin-right: 173px;
   color: #000;
   font-size: 40px;
   font-style: normal;
