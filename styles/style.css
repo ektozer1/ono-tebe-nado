@@ -66,6 +66,7 @@ body {
 
 
 .address {
+  all: unset;
   width: 240px;
   line-height: 24.3px;
   text-underline-offset: 3px;
@@ -74,7 +75,7 @@ body {
   font-style: normal;
   font-weight: 400;
   justify-self: end;
-  all: unset;
+ 
 }
 
 .cover {
