@@ -333,7 +333,7 @@ span {
 .about__column {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 133px;
+  padding-top: 133px;
 }
 
 .footer {
