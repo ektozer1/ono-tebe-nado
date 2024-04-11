@@ -351,9 +351,6 @@ span {
 
   grid-template-columns: 430px auto; 
 
-  grid-template-rows: auto; 
-
-  column-gap: 25px; 
 
 } /*  {
   display: flex;
