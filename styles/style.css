@@ -331,6 +331,8 @@ span {
   display: flex;
   flex-wrap: wrap;
   padding-top: 62px;
+  margin-top: 133px;
+  margin-left: 359px;
 }
 
 .footer {
