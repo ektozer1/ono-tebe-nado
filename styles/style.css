@@ -305,7 +305,7 @@ span {
 .about__logo {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   justify-self: center;
   background-color: #000;
   border-radius: 50%;
