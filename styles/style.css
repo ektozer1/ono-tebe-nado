@@ -345,12 +345,22 @@ span {
   
 }
 
-.about__column {
+.about__column { 
+
+  display: grid; 
+
+  grid-template-columns: 430px auto; 
+
+  grid-template-rows: auto; 
+
+  column-gap: 25px; 
+
+} /*  {
   display: flex;
   flex-wrap: wrap;
   padding-top: 133px;
   
-}
+} */
 
 .footer {
   display: flex;
