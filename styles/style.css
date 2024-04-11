@@ -286,58 +286,109 @@ span {
   line-height: normal;
 }
 
-.about {
-  display: flex;
-  margin: 146px 24px 0px 24px;
-}
+.about { 
 
-.about__logo {
-  align-self: flex-start;
-  width: 240px;
-  height: 240px;
-  margin-left: 47px;
-  margin-top: 35px;
-  border-radius: 50%;
-  background-color: #000;
-}
+  margin-top: 181px; 
 
-.about__logo-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  width: 240px;
-  height: 114px;
-}
+  margin-left: 50px; 
 
-.about__column {
-  display: flex;
-  flex-direction: column;
-  padding-top: 133px;
-  margin-left: 72px;
-  gap: 26px;
-}
+  margin-right: 50px; 
 
-.about__title {
-  margin-bottom: 75px;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  text-transform: uppercase;
-  color: #000000;
-}
+  margin-bottom: 180px; 
 
-.about__text {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-}
+  max-width: 1340px; 
 
+  flex-shrink: 0; 
+
+} 
+
+ 
+
+.about__column { 
+
+  display: grid; 
+
+  grid-template-columns: 430px auto; 
+
+  grid-template-rows: auto; 
+
+  column-gap: 25px; 
+
+} 
+
+ 
+
+.about__logo { 
+
+  display: flex; 
+
+  justify-content: center; 
+
+  align-items: center; 
+
+  justify-self: center; 
+
+  background-color: #000; 
+
+  border-radius: 50%; 
+
+  height: 240px; 
+
+  width: 240px; 
+
+} 
+
+ 
+
+.about__logo-image { 
+
+  height: 114px; 
+
+  width: 148px; 
+
+} 
+
+ 
+
+.about__title { 
+
+  color: #000; 
+
+  font-size: 40px; 
+
+  font-style: normal; 
+
+  font-weight: 700; 
+
+  line-height: normal; 
+
+  text-transform: uppercase; 
+
+  padding-top: 100px; 
+
+  padding-bottom: 100px; 
+
+} 
+
+ 
+
+.about__text { 
+
+  color: #000; 
+
+  font-size: 20px; 
+
+  font-style: normal; 
+
+  font-weight: 400; 
+
+  line-height: normal; 
+
+  padding-bottom: 25px; 
+
+  text-align: left; 
+
+} 
 .about__text:last-child {
   padding-bottom: 0px;
 }
