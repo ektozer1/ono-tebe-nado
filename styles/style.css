@@ -297,7 +297,7 @@ span {
 
 .about__column {
   display: grid;
-  grid-template-columns: 359px auto;
+  grid-template-columns: 430px auto;
   grid-template-rows: auto;
   column-gap: 25px;
 }
@@ -305,7 +305,7 @@ span {
 .about__logo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   justify-self: center;
   background-color: #000;
   border-radius: 50%;
