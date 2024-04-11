@@ -348,7 +348,9 @@ span {
 .about__column { 
 
   display: grid; 
+  grid-template-rows: auto; 
 
+  column-gap: 25px; 
 
 
 
