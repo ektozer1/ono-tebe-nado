@@ -286,25 +286,19 @@ span {
   line-height: normal;
 }
 
-.about { 
-  margin-top: 181px; 
-  margin-left: 50px; 
-  margin-right: 50px; 
-  margin-bottom: 180px; 
-  max-width: 1340px; 
-  flex-shrink: 0; 
+.about {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 334px 693px auto;
+  justify-content: start;
+  grid-template-rows: auto;
+  margin-left: 24px;
+  margin-top: 146px;
+}
 
-} 
-
- 
-
-.about__column { 
-  display: grid; 
-  grid-template-columns: 430px auto; 
-  grid-template-rows: auto; 
-  column-gap: 25px; 
-
-} 
+.about__column {
+  width: 100%;
+}
 
 .about__logo {
   display: flex;
