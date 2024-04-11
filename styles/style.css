@@ -345,23 +345,15 @@ span {
   
 }
 
-.about__column { 
 
-  display: grid; 
-
-  grid-template-columns: 130px auto; 
-
-  grid-template-rows: auto; 
-
-  column-gap: 25px; 
-
-
-} /*  {
+.about__column {
   display: flex;
   flex-wrap: wrap;
   padding-top: 133px;
+  column-gap: 25px; 
+
   
-} */
+} 
 
 .footer {
   display: flex;
