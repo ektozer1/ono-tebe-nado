@@ -308,6 +308,7 @@ span {
   align-items: center;
   justify-self: center;
   background-color: #000;
+  margin-left: 24px;
   border-radius: 50%;
   height: 240px;
   width: 240px;
