@@ -289,9 +289,9 @@ span {
 .about {
   display: flex;
   padding-top: 146px;
-  padding-left: 72px;
+  padding-left: 24px;
   gap: 73px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 
 .about__logo {
