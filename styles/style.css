@@ -303,6 +303,8 @@ span {
   grid-template-columns: 430px auto; 
   grid-template-rows: auto; 
   column-gap: 25px; 
+  max-width: 1052px;
+  margin-left: 15px;
 } 
 
  
@@ -316,7 +318,7 @@ span {
   border-radius: 50%; 
   height: 240px; 
   width: 240px; 
-  margin-left: 12px;
+  
 } 
 
  
