@@ -335,17 +335,7 @@ span {
   margin-left: 359px;
   
 }
-.about__column { 
 
-  display: grid; 
-
-  grid-template-columns: 430px auto; 
-
-  grid-template-rows: auto; 
-
-  column-gap: 25px; 
-
-} 
 
 .footer {
   display: flex;
