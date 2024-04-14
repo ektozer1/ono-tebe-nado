@@ -335,7 +335,11 @@ span {
   margin-left: 359px;
   
 }
-
+.about__column {
+display: flex;
+flex-wrap: wrap;
+padding-top: 133px;
+}
 
 .footer {
   display: flex;
