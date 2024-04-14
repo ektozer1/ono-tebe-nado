@@ -303,12 +303,12 @@ span {
 
 .about__logo {
   display: flex;
-
+  align-items: center;
   background-color: black;
   height: 240px;
   padding: 40px;
   border-radius: 50%;
-flex-wrap: wrap;
+
 }
 
 .about__logo-image {
