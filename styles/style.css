@@ -115,7 +115,7 @@ body {
   display: flex;  
   flex-direction: row;  
   justify-content: center;  
-  z-index: 0;  
+  z-index: 10;  
 
 }  
 
