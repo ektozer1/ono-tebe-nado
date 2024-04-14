@@ -110,7 +110,7 @@ body {
   letter-spacing: 30px;
   
 }
-.aligned-text { 
+.regular-letter-spacing{ 
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
