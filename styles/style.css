@@ -287,14 +287,12 @@ span {
 }
 
 .about {
-  margin-top: 146px; 
-  margin-left: 24px; 
-  margin-right: 24px; 
-  margin-bottom: 180px; 
-  max-width: 1052px; 
-  
-
-} 
+  display: flex;
+  padding-top: 184px;
+  padding-left: 72px;
+  gap: 73px;
+  margin-bottom: 100px;
+}
 /*  {
   display: flex;
   padding-top: 146px;
