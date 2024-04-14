@@ -286,19 +286,12 @@ span {
   line-height: normal;
 }
 
-.about 
-{ 
-
+.about {
   margin-top: 181px; 
-
   margin-left: 50px; 
-
   margin-right: 50px; 
-
   margin-bottom: 180px; 
-
   max-width: 1340px; 
-
   flex-shrink: 0; 
 
 } 
@@ -332,7 +325,7 @@ span {
   letter-spacing: 0px;
   word-spacing: -2px;
   margin-left: 359px;
-  margin-bottom: 100px;
+  margin-bottom: 412px;
 }
 
 .about__text {
@@ -350,7 +343,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   padding-top: 133px;
-  column-gap: 25px; 
+ 
 
   
 } 
