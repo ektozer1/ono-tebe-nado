@@ -286,71 +286,91 @@ span {
   line-height: normal;
 }
 
-.about {
-  display: flex;
-  padding-top: 184px;
-  padding-left: 72px;
-  gap: 73px;
-  margin-bottom: 100px;
-}
-/*  {
-  display: flex;
-  padding-top: 146px;
-  padding-left: 24px;
-  gap: 73px;
-  margin-bottom: 180px;
-} */ 
+.about { 
+  margin-top: 181px; 
+  margin-left: 50px; 
+  margin-right: 50px; 
+  margin-bottom: 180px; 
+  max-width: 1340px; 
+  flex-shrink: 0; 
 
-.about__logo {
-  display: flex;
-  align-items: center;
-  background-color: black;
-  height: 240px;
-  padding: 40px;
-  border-radius: 50%;
+} 
 
-}
+ 
 
-.about__logo-image {
-  background-color: black;
+.about__column { 
+  display: grid; 
+  grid-template-columns: 430px auto; 
+  grid-template-rows: auto; 
+  column-gap: 25px; 
+} 
+
+ 
+
+.about__logo { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  justify-self: center; 
+  background-color: #000; 
+  border-radius: 50%; 
+  height: 240px; 
+  width: 240px; 
+} 
+
+ 
+
+.about__logo-image { 
   height: 114px;
-  width: 158px;
-}
+  width: 148px; 
+} 
 
-.about__title {
+ 
+
+.about__title { 
+  color: #000; 
   font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0px;
-  word-spacing: -2px;
-  margin-left: 359px;
-  margin-bottom: 100px;
-}
+  font-style: normal; 
+  font-weight: 700; 
+  line-height: normal;
+  text-transform: uppercase; 
+  padding-top: 100px; 
+  padding-bottom: 100px; 
 
-.about__text {
-  display: flex;
-  font-size: 20px;
-  width: 693px;
-  padding-right: 1px;
-  padding-bottom: 24px;
-  margin-left: 359px;
-  
-}
-.about__column {
-display: flex;
-flex-wrap: wrap;
-margin-top: 50px;
-}
+} 
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 90px;
-}
+ 
 
+.about__text { 
+  color: #000; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-weight: 400; 
+  line-height: normal; 
+  padding-bottom: 25px; 
+  text-align: left;
+
+} 
+
+ 
+
+.about__text:last-child { 
+  padding-bottom: 0px; 
+
+} 
+
+ 
+
+.footer { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  margin-left: 50px; 
+  margin-right: 50px; 
+  margin-bottom: 90px; 
+} 
+
+ 
 .footer__links-list {
   list-style: none;
   text-align: center;
