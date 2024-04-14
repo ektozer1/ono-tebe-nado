@@ -111,7 +111,12 @@ body {
   
 }
 
-.aligned-text {  
+
+.aligned-text, 
+.regular-letter-spacing,
+.irregular-letter-spacing,
+.no-letter-spacing
+{  
   display: flex;  
   flex-direction: row;  
   justify-content: center;  
