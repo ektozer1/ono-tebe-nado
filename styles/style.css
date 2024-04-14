@@ -111,7 +111,7 @@ body {
   
 }
 
-span {  
+.aligned-text {  
   display: flex;  
   flex-direction: row;  
   justify-content: center;  
