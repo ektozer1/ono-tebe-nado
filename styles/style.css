@@ -300,11 +300,10 @@ span {
 
 .about__column { 
   display: grid; 
-  grid-template-columns: 430px auto; 
+  grid-template-columns: 230px auto; 
   grid-template-rows: auto; 
   column-gap: 25px; 
-  max-width: 1052px;
-  margin-left: 15px;
+  
 } 
 
  
