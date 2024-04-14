@@ -335,15 +335,16 @@ span {
   margin-left: 359px;
   
 }
+.about__column { 
 
+  display: grid; 
 
-.about__column {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 133px;
- 
+  grid-template-columns: 430px auto; 
 
-  
+  grid-template-rows: auto; 
+
+  column-gap: 25px; 
+
 } 
 
 .footer {
